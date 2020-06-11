@@ -1,7 +1,7 @@
 import alice.tuprolog.{Prolog, SolveInfo, Theory}
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.FunSuite
 
 @RunWith(classOf[JUnitRunner])
 class BoardTests extends FunSuite {

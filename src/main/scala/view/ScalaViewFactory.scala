@@ -338,9 +338,9 @@ object ScalaView {
       setMaximumSize(getPreferredSize)
       setAlignmentX(Component.CENTER_ALIGNMENT)
 
-      setOpaque(false);
-      setContentAreaFilled(false);
-      setBorderPainted(false);
+      setOpaque(false)
+      setContentAreaFilled(false)
+      setBorderPainted(false)
 
       setFont(new Font(f.getFontName, Font.BOLD, FONT_DIMENSION))
       setForeground(new Color(255, 250, 240))
@@ -382,9 +382,9 @@ object ScalaView {
 
     abstract private class Pawn extends JLabel {
 
-      protected var externalColor: Color = null
-      protected var internalColor: Color = null
-      protected var namePawn: String = null
+      protected var externalColor: Color = _
+      protected var internalColor: Color = _
+      protected var namePawn: String = _
 
       protected var EXTERNAL_ROUNDRECT_DIMENSION = cellDimension * 8 / 10
       protected var INTERNAL_ROUNDRECT_DIMENSION = cellDimension * 7 / 10

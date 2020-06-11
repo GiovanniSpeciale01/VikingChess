@@ -1,9 +1,7 @@
 import alice.tuprolog.{Prolog, SolveInfo, Theory}
 import org.junit.runner.RunWith
-import org.scalatest._
+import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
-
-import scala.runtime.Nothing$
 
 @RunWith(classOf[JUnitRunner])
 class UtilsListTests extends FunSuite {
